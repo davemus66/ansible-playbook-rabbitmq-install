@@ -1,0 +1,7 @@
+---
+
+- name: Installing repository
+  hosts: linux
+  become: yes
+  roles:
+    - ansible-role-rabbitmq-install-repo
