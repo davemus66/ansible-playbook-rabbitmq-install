@@ -4,4 +4,4 @@
   hosts: linux
   become: yes
   roles:
-    - ansible-role-rabbitmq-install-repo
+    - ansible-role-rabbitmq-install
